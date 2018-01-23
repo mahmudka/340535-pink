@@ -38,129 +38,129 @@
     <h2 class="page-main__title">Конкурс на самое безбашенное путешествие с Пинк</h2>
   </div>
 
-  <div class="main-form-wrapper">
+  <section class="main-form-wrapper">
     <h2 class="visually-hidden">Наши акции</h2>
     <form class="main-form" action="https://echo.htmlacademy.ru" method="post">
 
-      <section class="form-input">
+      <div class="main-form__full-name">
         <h2 class="visually-hidden">Форма для ввода Ф.И.О.</h2>
         <fieldset>
-          <legend class="form-input__title">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните</legend>
-          <ul class="form-input__list">
-            <li class="form-input__item">
-              <label class="form-input__label" for="lastName">Фамилия:</label>
-              <input class="form-input__input" type="text" name="lastName" id="lastName" placeholder="Укажите фамилию *">
+          <legend class="main-form__legend">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните</legend>
+          <ul class="main-form__list">
+            <li class="main-form__item">
+              <label class="main-form__label" for="lastName">Фамилия:</label>
+              <input class="main-form__input-text" type="text" name="lastName" id="lastName" placeholder="Укажите фамилию *">
             </li>
-            <li class="form-input__item">
-              <label class="form-input__label" for="firstName">Имя:</label>
-              <input class="form-input__input" type="text" name="firstName" id="firstName" placeholder="Введите ваше имя *">
+            <li class="main-form__item">
+              <label class="main-form__label" for="firstName">Имя:</label>
+              <input class="main-form__input-text" type="text" name="firstName" id="firstName" placeholder="Введите ваше имя *">
             </li>
-            <li class="form-input_item">
-              <label class="form-input__label" for="patronymic">Отчество:</label>
-              <input class="form-input__input" type="text" name="patronymic" id="patronymic" placeholder="Ну и отчество тоже">
+            <li class="main-form__item">
+              <label class="main-form__label" for="patronymic">Отчество:</label>
+              <input class="main-form__input-text" type="text" name="patronymic" id="patronymic" placeholder="Ну и отчество тоже">
             </li>
           </ul>
         </fieldset>
-      </section>
+      </div>
 
-      <section class="form-checkbox">
+      <div class="main-form__choice">
         <h2 class="visually-hidden">Форма для выбора</h2>
         <fieldset>
-          <legend class="form-checkbox__title">Ваши безбашенные достижения в путешествии</legend>
-          <ul class="form-checkbox__list">
-            <li class="form-checkbox__item">
-              <label class="form-checkbox__label" for="shark">Сделал селфи с акулой</label>
-              <input class="form-checkbox__input" type="checkbox" name="shark" id="shark">
+          <legend class="main-form__legend">Ваши безбашенные достижения в путешествии</legend>
+          <ul class="main-form__list">
+            <li class="main-form__item">
+              <label class="main-form__label" for="shark">Сделал селфи с акулой</label>
+              <input class="main-form__input-checkbox" type="checkbox" name="shark" id="shark">
             </li>
-            <li class="form-checkbox__item">
-              <label class="form-checkbox__label" for="beach">Обгорел на пляже</label>
-              <input class="form-checkbox__input" type="checkbox" name="beach" id="beach">
+            <li class="main-form__item">
+              <label class="main-form__label" for="beach">Обгорел на пляже</label>
+              <input class="main-form__input-checkbox" type="checkbox" name="beach" id="beach">
             </li>
-            <li class="form-checkbox__item">
-              <label class="form-checkbox__label" for="chack">Видел Чака Норриса</label>
-              <input class="form-checkbox__input" type="checkbox" name="chack" id="chack">
+            <li class="main-form__item">
+              <label class="main-form__label" for="chack">Видел Чака Норриса</label>
+              <input class="main-form__input-checkbox" type="checkbox" name="chack" id="chack">
             </li>
-            <li class="form-checkbox__item">
-              <label class="form-checkbox__label" for="souvenir">Накупил сувениров</label>
-              <input class="form-checkbox__input" type="checkbox" name="souvenir" id="souvenir">
+            <li class="main-form__item">
+              <label class="main-form__label" for="souvenir">Накупил сувениров</label>
+              <input class="main-form__input-checkbox" type="checkbox" name="souvenir" id="souvenir">
             </li>
-            <li class="form-checkbox__item">
-              <label class="form-checkbox__label" for="tower">Удержал башню</label>
-              <input class="form-checkbox__input" type="checkbox" name="tower" id="tower">
+            <li class="main-form__item">
+              <label class="main-form__label" for="tower">Удержал башню</label>
+              <input class="main-form__input-checkbox" type="checkbox" name="tower" id="tower">
             </li>
-            <li class="form-checkbox__item">
-              <label class="form-checkbox__label" for="hotel">Разгромил отель</label>
-              <input class="form-checkbox__input" type="checkbox" name="hotel" id="hotel">
+            <li class="main-form__item">
+              <label class="main-form_label" for="hotel">Разгромил отель</label>
+              <input class="main-form__input-checkbox" type="checkbox" name="hotel" id="hotel">
             </li>
           </ul>
         </fieldset>
-      </section>
+      </div>
 
-      <section class="failure-checkbox">
-        <h3 class="failure-checkbox__item">Что-то пошло не так!</h3>
-        <p class="failure-checkbox__item">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
-        <button type="submit" class="failure-checkbox__button button">Ok</button>
-      </section>
+      <div class="main-form__failure">
+        <h3 class="main-form__failure-item">Что-то пошло не так!</h3>
+        <p class="main-form__failure-item">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+        <button type="submit" class="main-form__failure-button button">Ok</button>
+      </div>
 
-      <section class="form-contacts">
+      <div class="main-form__contacts">
         <h2 class="visually-hidden">Форма для ввода адреса и телефона</h2>
         <fieldset>
-          <legend class="form-contacts__title">Ваши безбашенные достижения в путешествии</legend>
-          <ul class="form-contacts__list">
-            <li class="form-contacts__item">
-              <label class="form-contacts__label" for="tel">Номер телефона</label>
-              <input class="form-contacts__input" type="text" name="tel" id="tel" placeholder="Номер, пожалуйста">
+          <legend class="main-form__title">Ваши безбашенные достижения в путешествии</legend>
+          <ul class="main-form__list">
+            <li class="main-form__item">
+              <label class="main-form__label" for="tel">Номер телефона</label>
+              <input class="main-form__input-text" type="text" name="tel" id="tel" placeholder="Номер, пожалуйста">
             </li>
-            <li class="form-contacts__item">
-              <label class="form-contacts__label" for="mail">Адрес почты</label>
-              <input class="form-contacts__input" type="email" name="mail" id="mail" placeholder="Введите почту *">
+            <li class="main-form__item">
+              <label class="main-form__label" for="mail">Адрес почты</label>
+              <input class="main-form__input-text" type="email" name="mail" id="mail" placeholder="Введите почту *">
             </li>
           </ul>
         </fieldset>
-      </section>
+      </div>
 
-      <section class="form-radio">
+      <div class="main-form__radio">
         <h2 class="visually-hidden">Форма для выбора операционной системы</h2>
         <fieldset>
-          <legend class="form-radio__title">С каким приложением путешествовали?</legend>
-          <ul class="form-radio__list">
-            <li class="form-radio__item">
-              <label class="form-radio__label" for="ios">Pink для iOS</label>
-              <input class="form-radio__input" type="radio" name="ios" id="ios">
+          <legend class="main-form__title">С каким приложением путешествовали?</legend>
+          <ul class="main-form__list">
+            <li class="main-form__item">
+              <label class="main-form__label" for="ios">Pink для iOS</label>
+              <input class="main-form__input-radio" type="radio" name="ios" id="ios">
             </li>
-            <li class="form-radio__item">
-              <label class="form-radio__list" for="android">Pink на Android</label>
-              <input class="form-radio__input" type="radio" name="android" id="android">
+            <li class="main-form__item">
+              <label class="main-form__list" for="android">Pink на Android</label>
+              <input class="main-form_input-radio" type="radio" name="android" id="android">
             </li>
-            <li class="form-radio__item">
-              <label class="form-radio__list" for="windows">Windows Phone</label>
-              <input class="form-radio__input" type="radio" name="windows" id="windows">
+            <li class="main-form__item">
+              <label class="main-form__list" for="windows">Windows Phone</label>
+              <input class="main-form__input-radio" type="radio" name="windows" id="windows">
             </li>
           </ul>
         </fieldset>
-      </section>
+      </div>
 
-      <section class="failure-radio">
-        <h3 class="failure-radio_item">Ваша заявка отправлена</h3>
-        <p class="failure-radio__item">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и
+      <div class="main-form__failure">
+        <h3 class="main-form__failure-item">Ваша заявка отправлена</h3>
+        <p class="main-form__failure-item">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и
           оповестим вас.</p>
-        <button type="submit" class="failure-radio__button button">Отправить форму</button>
-      </section>
+        <button type="submit" class="main-form__failure-button button">Отправить форму</button>
+      </div>
 
-      <section class="form-textarea">
-        <h3 class="form-textarea__title">Опишите свои эмоции</h3>
-        <textarea class="form-textarea__item" name="textarea" cols="30" rows="10">Можно прям в красках, не стесняясь в выражениях</textarea>
-      </section>
+      <div class="main-form__textarea">
+        <h3 class="main-form__title">Опишите свои эмоции</h3>
+        <textarea class="main-form__input-textarea" name="textarea" cols="30" rows="10">Можно прям в красках, не стесняясь в выражениях</textarea>
+      </div>
 
-      <div class="submit-form">
-        <button type="submit" class="submit-form__button button">Отправить форму</button>
-        <small class="submit-form__small">
-          <sup class="submit-form__sup">*</sup>  — обязательные поля
+      <div class="main-form__submit">
+        <button type="submit" class="main-form__submit-button button">Отправить форму</button>
+        <small class="main-form__submit-small">
+          <sup class="main-form__submit-sup">*</sup>  — обязательные поля
         </small>
       </div>
 
     </form>
-  </div>
+  </section>
 
 </main>
 
