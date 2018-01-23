@@ -35,7 +35,7 @@
 
   <h1 class="visually-hidden">Форма приложения "Pink"</h1>
   <div>
-    <h2 class="page-form-main__title">Конкурс на самое безбашенное путешествие с Пинк</h2>
+    <h2 class="page-main__title">Конкурс на самое безбашенное путешествие с Пинк</h2>
   </div>
 
   <div class="main-form-wrapper">
@@ -43,8 +43,9 @@
     <form class="main-form" action="https://echo.htmlacademy.ru" method="post">
 
       <section class="form-input">
-        <legend class="form-input__title">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните</legend>
+        <h2 class="visually-hidden">Форма для ввода Ф.И.О.</h2>
         <fieldset>
+          <legend class="form-input__title">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните</legend>
           <ul class="form-input__list">
             <li class="form-input__item">
               <label class="form-input__label" for="lastName">Фамилия:</label>
@@ -63,8 +64,9 @@
       </section>
 
       <section class="form-checkbox">
-        <legend class="form-checkbox__title">Ваши безбашенные достижения в путешествии</legend>
+        <h2 class="visually-hidden">Форма для выбора</h2>
         <fieldset>
+          <legend class="form-checkbox__title">Ваши безбашенные достижения в путешествии</legend>
           <ul class="form-checkbox__list">
             <li class="form-checkbox__item">
               <label class="form-checkbox__label" for="shark">Сделал селфи с акулой</label>
@@ -97,60 +99,62 @@
       <section class="failure-checkbox">
         <h3 class="failure-checkbox__item">Что-то пошло не так!</h3>
         <p class="failure-checkbox__item">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
-        <button type="submit" class="failure-pop-up__button button">Ok</button>
+        <button type="submit" class="failure-checkbox__button button">Ok</button>
       </section>
 
       <section class="form-contacts">
-        <legend class="form-contacts__title">Ваши безбашенные достижения в путешествии</legend>
+        <h2 class="visually-hidden">Форма для ввода адреса и телефона</h2>
         <fieldset>
-          <ul class="form-contacts___list">
-            <li class="form-contacts___item">
-              <label class="form-contacts___label" for="tel">Номер телефона</label>
-              <input class="form-contacts___input" type="text" name="tel" id="tel" placeholder="Номер, пожалуйста">
+          <legend class="form-contacts__title">Ваши безбашенные достижения в путешествии</legend>
+          <ul class="form-contacts__list">
+            <li class="form-contacts__item">
+              <label class="form-contacts__label" for="tel">Номер телефона</label>
+              <input class="form-contacts__input" type="text" name="tel" id="tel" placeholder="Номер, пожалуйста">
             </li>
-            <li class="form-contacts___item">
-              <label class="form-contacts___label" for="mail">Адрес почты</label>
-              <input class="form-contacts___input" type="email" name="mail" id="mail" placeholder="Введите почту *">
+            <li class="form-contacts__item">
+              <label class="form-contacts__label" for="mail">Адрес почты</label>
+              <input class="form-contacts__input" type="email" name="mail" id="mail" placeholder="Введите почту *">
             </li>
           </ul>
         </fieldset>
       </section>
 
       <section class="form-radio">
-        <legend class="form-radio__title">С каким приложением путешествовали?</legend>
+        <h2 class="visually-hidden">Форма для выбора операционной системы</h2>
         <fieldset>
-          <ul class="form-radio___list">
-            <li class="form-radio___item">
-              <label class="form-radio___label" for="ios">Pink для iOS</label>
-              <input class="form-radio___input" type="radio" name="ios" id="ios">
+          <legend class="form-radio__title">С каким приложением путешествовали?</legend>
+          <ul class="form-radio__list">
+            <li class="form-radio__item">
+              <label class="form-radio__label" for="ios">Pink для iOS</label>
+              <input class="form-radio__input" type="radio" name="ios" id="ios">
             </li>
-            <li class="form-radio___item">
-              <label class="form-radio___list" for="android">Pink на Android</label>
-              <input class="form-radio___input" type="radio" name="android" id="android">
+            <li class="form-radio__item">
+              <label class="form-radio__list" for="android">Pink на Android</label>
+              <input class="form-radio__input" type="radio" name="android" id="android">
             </li>
-            <li class="form-radio___item">
-              <label class="form-radio___list" for="windows">Windows Phone</label>
-              <input class="form-radio___input" type="radio" name="windows" id="windows">
+            <li class="form-radio__item">
+              <label class="form-radio__list" for="windows">Windows Phone</label>
+              <input class="form-radio__input" type="radio" name="windows" id="windows">
             </li>
           </ul>
         </fieldset>
       </section>
 
       <section class="failure-radio">
-        <h3 class="failure-pop-up__item">Ваша заявка отправлена</h3>
-        <p class="failure-pop-up__item">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и
+        <h3 class="failure-radio_item">Ваша заявка отправлена</h3>
+        <p class="failure-radio__item">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и
           оповестим вас.</p>
-        <button type="submit" class="failure-pop-up__button button">Отправить форму</button>
+        <button type="submit" class="failure-radio__button button">Отправить форму</button>
       </section>
 
       <section class="form-textarea">
-        <legend class="form-textarea__title">Опишите свои эмоции</legend>
-        <textarea class="form-textarea__item" name="" id="" cols="30" rows="10">Можно прям в красках, не стесняясь в выражениях</textarea>
+        <h3 class="form-textarea__title">Опишите свои эмоции</h3>
+        <textarea class="form-textarea__item" name="textarea" cols="30" rows="10">Можно прям в красках, не стесняясь в выражениях</textarea>
       </section>
 
       <div class="submit-form">
         <button type="submit" class="submit-form__button button">Отправить форму</button>
-        <small class="submit-form--bottom">
+        <small class="submit-form__small">
           <sup class="submit-form__sup">*</sup>  — обязательные поля
         </small>
       </div>
@@ -162,7 +166,7 @@
 
 <footer class="page-footer">
   <div class="page-footer__social social">
-    <img class="page-footer__logo" src="http://placehold.it/150x100" width="150" height="100"/>
+    <img class="page-footer__logo" src="http://placehold.it/150x100" width="150" height="100" alt=""/>
     <ul class="social__list">
       <li class="social__item">
         <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy"><span class="visually-hidden">Мы в Твиттере</span></a>
