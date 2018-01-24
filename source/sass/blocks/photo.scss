@@ -1,0 +1,49 @@
+.photo {
+  .photo__title {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #000000;
+  }
+  .photo__list {
+    list-style: none;
+  }
+  .photo__cite {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 18px;
+    color: #000000;
+  }
+  .photo__time {
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  .photo__block {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 18px;
+    color: #000000;
+  }
+  .photo__span {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #d22856;
+  }
+  .photo__description {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 30px;
+    color: #000000;
+  }
+}

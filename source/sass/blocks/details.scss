@@ -1,0 +1,33 @@
+.details {
+  .details__wrapper {
+    background-color: #1d2631;
+  }
+  .details__caption {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  .details__price {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  .details__list {
+    list-style: none;
+  }
+  .details__title {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #000000;
+  }
+}
