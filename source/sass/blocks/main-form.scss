@@ -1,0 +1,75 @@
+.main-form__title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+}
+
+.main-form__fieldset {
+  border: none;
+}
+
+.main-form__label {
+  text-transform: uppercase;
+  color: #d22856;
+}
+
+.main-form__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-form__legend {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #d22856;
+}
+
+.main-form--choice {
+  background-color: #f2f2f2;
+}
+
+.main-form__label-choice {
+  text-transform: none;
+  color: #000000;
+}
+
+.main-form__input-textarea {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main-form__submit-button,
+.main-form__failure-button {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #2aab6d;
+}
+
+.main-form__failure {
+  display: none;
+}
+
+.main-form__failure-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.main-form__failure-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.main-form__submit-small {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
