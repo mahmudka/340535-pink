@@ -1,13 +1,17 @@
-.reviews__author-name {
+.effect {
+  display: none;
+}
+
+.effect__title {
   margin: 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 18px;
-  color: #000000;
+  line-height: 24px;
+  color: #283645;
 }
 
-.reviews__text {
+.effect__description {
   margin: 0;
   padding: 10px 0;
   font-size: 14px;
@@ -16,24 +20,31 @@
   color: #000000;
 }
 
-.reviews__small {
+.effect__link {
   margin: 0;
   padding: 10px 0;
   font-size: 14px;
   font-weight: 400;
   line-height: 10px;
-  color: #000000;
+  color: #d22856;
+  text-decoration: underline;
   display: none;
 }
 
 @media (min-width: 660px) {
-  .reviews__small {
+  .effect {
+    display: block;
+  }
+  .effect__link {
     display: block;
   }
 }
 
 @media (min-width: 950px) {
-  .reviews__small {
+  .effect {
+    display: block;
+  }
+  .effect__link {
     display: block;
   }
 }

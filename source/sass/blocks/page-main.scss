@@ -13,3 +13,26 @@
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
 }
+
+.page-main__caption {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #ffffff;
+  background-color: #283645;
+  display: none;
+}
+
+@media (min-width: 660px) {
+  .page-main__caption {
+    display: block;
+  }
+}
+
+@media (min-width: 9500px) {
+  .page-main__caption {
+    display: block;
+  }
+}

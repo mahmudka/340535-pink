@@ -31,3 +31,15 @@
 .contacts__adress {
   text-decoration: none;
 }
+
+@media (min-width: 660px) {
+  .contacts__list {
+    display: flex;
+  }
+}
+
+@media (min-width: 950px) {
+  .contacts__list {
+    display: flex;
+  }
+}
