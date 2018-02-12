@@ -1,4 +1,34 @@
 .page-header {
-  background-color: #1d2631;
+  min-height: 660px;
+  background-color: #283645;
+  background-image: url("../img/iphone-hand-mobile@1x.png"), url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   color: #ffffff;
+  width: auto;
+}
+
+.page-header.form,
+.page-header.photo-page {
+  background-image: none;
+}
+
+.page-header__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 660px) {
+  .page-header {
+    width: auto;
+  }
+}
+
+@media (min-width: 950px) {
+  .page-header {
+    width: auto;
+  }
+  .page-header__wrapper {
+    justify-content: space-around;
+  }
 }
